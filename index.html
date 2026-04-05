@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pelican Landscaping LLC | Professional Landscaping in Belfair, WA</title>
+  <meta name="description" content="Pelican Landscaping LLC — Belfair, WA's trusted landscaping company. Lawn care, fencing, masonry, tree service & more. 4.6★ rated. Free estimates. Call (360) 551-5287.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--green-900:#0f2a0f;--green-800:#1a3c1a;--green-700:#1a7a2e;--green-600:#1a9e3f;--green-500:#22b847;--green-400:#4aca6a;--green-300:#6dbf6d;--green-100:#e4f7e8;--green-50:#f0faf2;--brown-900:#2d1f14;--brown-800:#3d2b1f;--brown-700:#5c4033;--amber-400:#fbbf24;--white:#fff;--gray-50:#f9fafb;--gray-100:#f3f4f6;--gray-200:#e5e7eb;--gray-400:#9ca3af;--gray-500:#6b7280;--gray-600:#4b5563;--gray-800:#1f2937;--gray-900:#111827;--shadow-sm:0 1px 3px rgba(0,0,0,.08);--shadow-md:0 4px 16px rgba(0,0,0,.08);--shadow-lg:0 8px 32px rgba(0,0,0,.12);--shadow-xl:0 16px 48px rgba(0,0,0,.16);--radius:16px;--radius-sm:10px;--transition:.3s cubic-bezier(.4,0,.2,1)}
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',system-ui,sans-serif;color:var(--gray-800);line-height:1.7;background:var(--white)}
+    a{color:inherit;text-decoration:none}img{max-width:100%;height:auto;display:block}ul{list-style:none}
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
+    h1,h2,h3,h4{line-height:1.2}
+    h1{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,5vw,3.6rem);font-weight:800}
+    h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700}
+    h3{font-size:1.25rem;font-weight:700}
+    .section-tag{display:inline-flex;align-items:center;gap:8px;background:var(--green-100);color:var(--green-700);padding:6px 16px;border-radius:50px;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px}
+    .section-header{text-align:center;max-width:640px;margin:0 auto 56px}
+    .section-header h2{margin-top:12px;color:var(--gray-900)}.section-header p{color:var(--gray-500);margin-top:16px;font-size:1.1rem}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:16px 36px;border-radius:50px;font-weight:700;font-size:1rem;cursor:pointer;transition:var(--transition);border:none;text-align:center}
+    .btn-primary{background:var(--green-600);color:var(--white)}.btn-primary:hover{background:var(--green-700);transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+    .btn-white{background:var(--white);color:var(--green-700)}.btn-white:hover{background:var(--green-50);transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+    .btn-outline-white{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.4)}.btn-outline-white:hover{background:var(--white);color:var(--green-700);border-color:var(--white)}
+    .btn-ghost{background:transparent;color:var(--green-600);border:2px solid var(--green-600)}.btn-ghost:hover{background:var(--green-600);color:var(--white)}
+    .btn-sm{padding:12px 24px;font-size:.9rem}
+    .social-icon{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.1);transition:var(--transition)}.social-icon:hover{background:var(--green-600)}.social-icon svg{width:14px;height:14px;fill:#fff}
+    .top-bar{background:var(--brown-900);color:rgba(255,255,255,.8);font-size:.82rem;padding:10px 0}.top-bar .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}.top-bar a{color:var(--green-400);font-weight:600}.top-bar a:hover{color:#fff}.top-bar-left,.top-bar-right{display:flex;align-items:center;gap:20px}
+    .navbar-wrap{background:var(--white);position:sticky;top:0;z-index:1000;transition:var(--transition)}.navbar-wrap.scrolled{box-shadow:var(--shadow-md)}
+    .navbar{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+    .logo{display:flex;align-items:center;gap:6px}.logo img{height:56px;width:auto}
+    .nav-links{display:flex;gap:8px;align-items:center}.nav-links a{padding:8px 16px;font-weight:500;font-size:.95rem;color:var(--gray-600);border-radius:8px;transition:var(--transition)}.nav-links a:hover{color:var(--green-600);background:var(--green-50)}
+    .nav-cta-btn{background:var(--green-600)!important;color:var(--white)!important;padding:10px 24px!important;border-radius:50px!important;font-weight:700!important}.nav-cta-btn:hover{background:var(--green-700)!important}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:8px}.hamburger span{width:26px;height:2.5px;background:var(--brown-800);border-radius:2px;transition:var(--transition)}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(15,42,15,.95),rgba(45,31,20,.9),rgba(26,158,63,.85));min-height:92vh;display:flex;align-items:center;color:var(--white)}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+    .hero-content{position:relative;z-index:2}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);backdrop-filter:blur(12px);padding:8px 20px;border-radius:50px;font-size:.85rem;margin-bottom:20px;border:1px solid rgba(255,255,255,.15)}.hero-badge .stars{color:var(--amber-400)}
+    .hero h1{color:var(--white);margin-bottom:20px}.hero p{font-size:1.15rem;opacity:.9;max-width:520px;margin-bottom:32px;line-height:1.8}
+    .hero-buttons{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:40px}
+    .hero-trust{display:flex;gap:32px;flex-wrap:wrap}.hero-trust-item{display:flex;align-items:center;gap:8px;font-size:.9rem;opacity:.85}.hero-trust-item .icon{font-size:1.1rem}
+    .hero-form-wrap{background:var(--white);border-radius:20px;padding:36px;box-shadow:var(--shadow-xl);position:relative;z-index:2}.hero-form-wrap h3{color:var(--gray-900);font-size:1.3rem;margin-bottom:4px}.hero-form-wrap .subtext{color:var(--gray-500);font-size:.9rem;margin-bottom:20px}
+    .hero-form{display:flex;flex-direction:column;gap:12px}
+    .hero-form input,.hero-form select,.hero-form textarea{padding:14px 16px;border:2px solid var(--gray-200);border-radius:var(--radius-sm);font-family:inherit;font-size:.95rem;transition:var(--transition);width:100%;background:var(--white)}
+    .hero-form input:focus,.hero-form select:focus,.hero-form textarea:focus{outline:none;border-color:var(--green-600);box-shadow:0 0 0 3px rgba(26,158,63,.12)}
+    .hero-form textarea{resize:vertical;min-height:80px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.hero-form .btn{width:100%;padding:16px;font-size:1.05rem}.form-note{text-align:center;font-size:.8rem;color:var(--gray-400);margin-top:4px}
+    .stats-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--green-600);border-radius:var(--radius);overflow:hidden;margin-top:-50px;position:relative;z-index:10;box-shadow:var(--shadow-xl)}
+    .stat-item{background:var(--white);padding:32px 20px;text-align:center}.stat-item .number{font-size:2rem;font-weight:900;color:var(--green-600)}.stat-item .label{color:var(--gray-500);font-size:.85rem;margin-top:4px;font-weight:500}
+    .services{padding:100px 0}.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .service-card{background:var(--white);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:var(--transition)}.service-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:var(--green-400)}
+    .service-img{height:220px;background-size:cover;background-position:center;position:relative}.service-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(transparent,rgba(0,0,0,.3))}
+    .service-body{padding:28px}.service-body h3{margin-bottom:10px;color:var(--gray-900)}.service-body p{color:var(--gray-500);font-size:.92rem;line-height:1.7}.service-body .service-link{display:inline-flex;align-items:center;gap:6px;margin-top:16px;color:var(--green-600);font-weight:600;font-size:.9rem}.service-body .service-link:hover{gap:10px}
+    .why-us{padding:100px 0;background:var(--gray-50)}.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .why-image{border-radius:var(--radius);overflow:hidden;height:520px;position:relative}.why-image img{width:100%;height:100%;object-fit:cover}
+    .why-image-overlay{position:absolute;bottom:24px;left:24px;right:24px;background:rgba(45,31,20,.92);backdrop-filter:blur(12px);padding:20px 24px;border-radius:var(--radius-sm);color:var(--white);display:flex;align-items:center;gap:16px}
+    .why-image-overlay .big-num{font-size:2.4rem;font-weight:900;color:var(--green-400);line-height:1}.why-image-overlay p{font-size:.9rem;opacity:.9}
+    .why-features{display:flex;flex-direction:column;gap:28px}
+    .why-feature{display:flex;gap:20px;padding:24px;background:var(--white);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);transition:var(--transition);border:1px solid transparent}.why-feature:hover{border-color:var(--green-400);box-shadow:var(--shadow-md)}
+    .why-icon{width:52px;height:52px;min-width:52px;background:linear-gradient(135deg,var(--green-100),var(--green-50));border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.4rem}
+    .why-feature h3{margin-bottom:6px;font-size:1.1rem}.why-feature p{color:var(--gray-500);font-size:.92rem}
+    .gallery{padding:100px 0}.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:280px;gap:12px}
+    .gallery-item{border-radius:var(--radius-sm);overflow:hidden;position:relative;cursor:pointer}.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}.gallery-item:hover img{transform:scale(1.05)}
+    .gallery-item::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.55));opacity:0;transition:var(--transition)}.gallery-item:hover::after{opacity:1}
+    .gallery-caption{position:absolute;bottom:16px;left:16px;right:16px;color:var(--white);font-weight:600;font-size:.9rem;z-index:2;opacity:0;transform:translateY(8px);transition:var(--transition)}.gallery-item:hover .gallery-caption{opacity:1;transform:translateY(0)}
+    .gallery-item.span-2{grid-column:span 2}
+    .testimonials{padding:100px 0;background:linear-gradient(135deg,var(--brown-900),var(--brown-800));color:var(--white);overflow:hidden}
+    .testimonials .section-tag{background:rgba(255,255,255,.1);color:var(--green-400)}.testimonials .section-header h2{color:var(--white)}.testimonials .section-header p{color:rgba(255,255,255,.6)}
+    .testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .testimonial-card{background:rgba(255,255,255,.06);backdrop-filter:blur(12px);padding:32px;border-radius:var(--radius);border:1px solid rgba(255,255,255,.08);transition:var(--transition)}.testimonial-card:hover{background:rgba(255,255,255,.1);transform:translateY(-4px)}
+    .testimonial-stars{color:var(--amber-400);font-size:1rem;margin-bottom:16px}.testimonial-card .review-text{font-size:.95rem;line-height:1.8;opacity:.92;margin-bottom:20px;font-style:italic}
+    .testimonial-author{display:flex;align-items:center;gap:12px}.testimonial-avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--green-600),var(--green-400));display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem}
+    .testimonial-name{font-weight:600;font-size:.95rem}.testimonial-role{font-size:.8rem;opacity:.5}
+    .contact{padding:100px 0;background:var(--gray-50)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+    .contact-info h2{color:var(--gray-900);margin-bottom:12px}.contact-info>p{color:var(--gray-500);margin-bottom:32px;font-size:1.05rem}
+    .contact-card{display:flex;gap:16px;padding:20px 0;border-bottom:1px solid var(--gray-200)}.contact-card:last-child{border-bottom:none}
+    .contact-card-icon{width:52px;height:52px;min-width:52px;background:var(--green-100);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.3rem}
+    .contact-card h4{margin-bottom:4px;font-size:1rem;color:var(--gray-900)}.contact-card p{color:var(--gray-500);font-size:.92rem}.contact-card a{color:var(--green-600);font-weight:600}
+    .contact-form-wrap{background:var(--white);padding:36px;border-radius:20px;box-shadow:var(--shadow-md)}.contact-form-wrap h3{color:var(--gray-900);font-size:1.3rem;margin-bottom:4px}.contact-form-wrap .subtext{color:var(--gray-500);font-size:.9rem;margin-bottom:20px}
+    .contact-form{display:flex;flex-direction:column;gap:12px}
+    .contact-form input,.contact-form select,.contact-form textarea{padding:14px 16px;border:2px solid var(--gray-200);border-radius:var(--radius-sm);font-family:inherit;font-size:.95rem;transition:var(--transition);width:100%;background:var(--white)}
+    .contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline:none;border-color:var(--green-600);box-shadow:0 0 0 3px rgba(26,158,63,.12)}
+    .contact-form textarea{resize:vertical;min-height:120px}.contact-form .btn{width:100%}
+    .cta-section{padding:100px 0}
+    .cta-box{background:linear-gradient(135deg,var(--brown-900),var(--green-800));border-radius:24px;padding:72px 60px;color:var(--white);display:flex;align-items:center;justify-content:space-between;gap:40px;position:relative;overflow:hidden}
+    .cta-box::before{content:'';position:absolute;top:-50%;right:-10%;width:400px;height:400px;background:radial-gradient(circle,rgba(26,158,63,.2),transparent);border-radius:50%}
+    .cta-box h2{color:var(--white);margin-bottom:12px;position:relative}.cta-box p{opacity:.85;max-width:480px;font-size:1.05rem;position:relative}.cta-buttons{display:flex;gap:16px;flex-wrap:wrap;position:relative;flex-shrink:0}
+    footer{background:var(--brown-900);color:rgba(255,255,255,.7);padding:72px 0 0}
+    .footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:48px;margin-bottom:48px}
+    .footer-brand .logo{margin-bottom:16px}.footer-brand .logo img{height:50px;filter:brightness(0) invert(1)}.footer-brand p{font-size:.9rem;line-height:1.8}
+    .footer-socials{display:flex;gap:10px;margin-top:16px}
+    .footer-social-icon{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.08);transition:var(--transition)}.footer-social-icon:hover{background:var(--green-600)}.footer-social-icon svg{width:16px;height:16px;fill:#fff}
+    footer h4{color:#fff;margin-bottom:20px;font-size:.95rem;text-transform:uppercase;letter-spacing:1px}
+    footer ul li{margin-bottom:12px}footer ul li a{color:rgba(255,255,255,.6);transition:var(--transition);font-size:.9rem}footer ul li a:hover{color:var(--green-400)}
+    .footer-contact-item{display:flex;gap:12px;margin-bottom:16px;font-size:.9rem}.footer-contact-item .fc-icon{font-size:1.1rem}.footer-contact-item a{color:var(--green-400);font-weight:600}
+    .footer-map{border-top:1px solid rgba(255,255,255,.08)}.footer-map iframe{width:100%;height:300px;border:none;filter:grayscale(30%) brightness(.9)}
+    .footer-bottom{background:rgba(0,0,0,.2);padding:20px 0;display:flex;justify-content:center;align-items:center;font-size:.82rem;color:rgba(255,255,255,.35);text-align:center}
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9999;display:none;align-items:center;justify-content:center;cursor:pointer}.lightbox.active{display:flex}.lightbox img{max-width:90%;max-height:85vh;border-radius:12px;box-shadow:var(--shadow-xl)}.lightbox-close{position:absolute;top:24px;right:32px;color:#fff;font-size:2rem;cursor:pointer;background:none;border:none;z-index:10}
+    .fade-up{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}.fade-up.visible{opacity:1;transform:translateY(0)}
+    @media(max-width:1024px){.hero-grid{grid-template-columns:1fr;gap:40px}.hero{min-height:auto;padding:80px 0}.hero-form-wrap{max-width:520px}.services-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:240px}.gallery-item.span-2{grid-column:span 1}.why-grid,.contact-grid{grid-template-columns:1fr}.why-image{height:360px}.cta-box{flex-direction:column;text-align:center;padding:48px 32px}.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:768px){.nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:var(--white);flex-direction:column;padding:16px 24px;box-shadow:var(--shadow-lg);border-top:1px solid var(--gray-200)}.nav-links.active{display:flex}.hamburger{display:flex}.stats-bar{grid-template-columns:repeat(2,1fr);margin-top:-30px}.services-grid,.testimonial-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:200px}.form-row{grid-template-columns:1fr}.top-bar .container{justify-content:center;text-align:center}.top-bar-right{display:none}.footer-grid{grid-template-columns:1fr}.section-header{margin-bottom:40px}.services,.why-us,.gallery,.testimonials,.contact,.cta-section{padding:72px 0}}
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span>&#9742; <a href="tel:3605515287">(360) 551-5287</a></span>
+        <span>&#128205; <a href="https://maps.app.goo.gl/fz6EqnipmLj6ZDFi6" target="_blank">Belfair, WA &amp; Surrounding Areas</a></span>
+      </div>
+      <div class="top-bar-right">
+        <span>Mon – Sat: 8:00 AM – 8:00 PM</span>
+        <a href="https://www.facebook.com/PelicanLandscapingLLC" target="_blank" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://www.instagram.com/pelicanlandscapingllc/" target="_blank" class="social-icon" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <div class="navbar-wrap" id="navbar">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo"><img src="logo.svg" alt="Pelican Landscaping LLC"></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#hero-form" class="nav-cta-btn">Free Estimate</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span>4.6 Stars &middot; 55+ Google Reviews</span></div>
+          <h1>Your Property Deserves the Best Landscaping</h1>
+          <p>From custom landscape design to weekly lawn care, fencing, masonry, and tree service — Pelican Landscaping is Belfair's trusted outdoor expert. Licensed, bonded, and insured.</p>
+          <div class="hero-buttons">
+            <a href="tel:3605515287" class="btn btn-white">&#9742; (360) 551-5287</a>
+            <a href="#services" class="btn btn-outline-white">View Services</a>
+          </div>
+          <div class="hero-trust">
+            <div class="hero-trust-item"><span class="icon">&#9989;</span> Licensed &amp; Insured</div>
+            <div class="hero-trust-item"><span class="icon">&#128176;</span> Free Estimates</div>
+            <div class="hero-trust-item"><span class="icon">&#9201;</span> Fast Response</div>
+          </div>
+        </div>
+        <div class="hero-form-wrap" id="hero-form">
+          <h3>Get Your Free Estimate</h3>
+          <p class="subtext">Fill this out and we'll call you within 24 hours.</p>
+          <form class="hero-form" id="estimateForm">
+            <div class="form-row"><input type="text" name="first_name" placeholder="First Name *" required><input type="text" name="last_name" placeholder="Last Name *" required></div>
+            <input type="tel" name="phone" placeholder="Phone Number *" required>
+            <input type="email" name="email" placeholder="Email Address">
+            <select name="service" required>
+              <option value="" disabled selected>What do you need help with? *</option>
+              <option>Landscape Design &amp; Installation</option><option>Lawn Care &amp; Maintenance</option><option>Fence &amp; Deck Construction</option><option>Masonry &amp; Retaining Walls</option><option>Tree Service &amp; Removal</option><option>Cleanups, Sod &amp; Hauling</option><option>Other / Not Sure</option>
+            </select>
+            <textarea name="message" placeholder="Tell us about your project (optional)"></textarea>
+            <button type="submit" class="btn btn-primary">Get My Free Estimate &#8594;</button>
+            <div class="form-note">&#128274; No spam. No obligation. Just a quick, honest quote.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="container">
+    <div class="stats-bar">
+      <div class="stat-item"><div class="number">55+</div><div class="label">Google Reviews</div></div>
+      <div class="stat-item"><div class="number">4.6&#9733;</div><div class="label">Average Rating</div></div>
+      <div class="stat-item"><div class="number">8+</div><div class="label">Services Offered</div></div>
+      <div class="stat-item"><div class="number">100%</div><div class="label">Free Estimates</div></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header fade-up"><div class="section-tag">&#127793; Our Services</div><h2>Everything Your Property Needs</h2><p>From the ground up, we handle every aspect of your outdoor space with expert craftsmanship and attention to detail.</p></div>
+      <div class="services-grid">
+        <div class="service-card fade-up"><div class="service-img" style="background-image:url('images/landscaping.jpg'),linear-gradient(135deg,#1a9e3f,#4aca6a)"></div><div class="service-body"><h3>Landscape Design &amp; Installation</h3><p>Custom garden beds, rock features, shrub installation, grading, drainage solutions, and full yard transformations.</p><a href="#hero-form" class="service-link">Request a Quote &#8594;</a></div></div>
+        <div class="service-card fade-up"><div class="service-img" style="background-image:url('images/lawn-care.jpg'),linear-gradient(135deg,#15862f,#1a9e3f)"></div><div class="service-body"><h3>Lawn Care &amp; Maintenance</h3><p>Weekly mowing, fertilization, aeration, overseeding, weed control, and seasonal cleanups to keep your lawn pristine.</p><a href="#hero-form" class="service-link">Request a Quote &#8594;</a></div></div>
+        <div class="service-card fade-up"><div class="service-img" style="background-image:url('images/fencing.jpg'),linear-gradient(135deg,#5c4033,#3d2b1f)"></div><div class="service-body"><h3>Fence &amp; Deck Construction</h3><p>Wood, vinyl, chain link, and metal fencing plus custom decking and porch construction. Built to last.</p><a href="#hero-form" class="service-link">Request a Quote &#8594;</a></div></div>
+        <div class="service-card fade-up"><div class="service-img" style="background-image:url('images/masonry.jpg'),linear-gradient(135deg,#3d2b1f,#5c4033)"></div><div class="service-body"><h3>Masonry &amp; Retaining Walls</h3><p>Block walls, retaining walls, paver patios, walkways, steps, and stone features — expert hardscaping craftsmanship.</p><a href="#hero-form" class="service-link">Request a Quote &#8594;</a></div></div>
+        <div class="service-card fade-up"><div class="service-img" style="background-image:url('images/tree-service.jpg'),linear-gradient(135deg,#0f2a0f,#1a3c1a)"></div><div class="service-body"><h3>Tree Service &amp; Removal</h3><p>Professional tree climbing, trimming, pruning, complete removal, stump grinding, and emergency storm response.</p><a href="#hero-form" class="service-link">Request a Quote &#8594;</a></div></div>
+        <div class="service-card fade-up"><div class="service-img" style="background-image:url('images/cleanup.jpg'),linear-gradient(135deg,#1a7a2e,#22b847)"></div><div class="service-body"><h3>Cleanups, Sod &amp; Hauling</h3><p>General property cleanup, new sod installation, mulch and bark spreading, debris removal, and lot clearing.</p><a href="#hero-form" class="service-link">Request a Quote &#8594;</a></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us" id="why-us">
+    <div class="container"><div class="why-grid">
+      <div class="why-image fade-up">
+        <img src="images/team-trucks.jpg" alt="Pelican Landscaping crew and trucks" onerror="this.src='https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80'">
+        <div class="why-image-overlay"><div class="big-num">55+</div><div><p><strong>5-Star Google Reviews</strong></p><p>from Belfair homeowners</p></div></div>
+      </div>
+      <div>
+        <div class="section-tag">&#128170; Why Choose Us</div>
+        <h2 style="margin:16px 0 12px;color:var(--gray-900)">Why Belfair Trusts<br>Pelican Landscaping</h2>
+        <p style="color:var(--gray-500);margin-bottom:32px">We're not a giant franchise — we're your neighbors. Every project gets our personal attention, honest pricing, and quality craftsmanship.</p>
+        <div class="why-features">
+          <div class="why-feature fade-up"><div class="why-icon">&#9989;</div><div><h3>Licensed, Bonded &amp; Insured</h3><p>Work with confidence knowing your property and our crew are fully protected on every job.</p></div></div>
+          <div class="why-feature fade-up"><div class="why-icon">&#128176;</div><div><h3>Transparent, Honest Pricing</h3><p>Detailed quotes upfront — no hidden fees, no surprises. We work within your budget.</p></div></div>
+          <div class="why-feature fade-up"><div class="why-icon">&#127775;</div><div><h3>Proven 4.6-Star Reputation</h3><p>55+ verified reviews from real customers. Our track record speaks for itself.</p></div></div>
+          <div class="why-feature fade-up"><div class="why-icon">&#128205;</div><div><h3>Locally Owned &amp; Operated</h3><p>Serving Belfair, Bremerton, Silverdale, Gig Harbor, Port Orchard, and the greater Kitsap area.</p></div></div>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header fade-up"><div class="section-tag">&#128247; Our Work</div><h2>See Our Recent Projects</h2><p>Real work from real projects across Belfair and the Kitsap Peninsula.</p></div>
+      <div class="gallery-grid">
+        <div class="gallery-item span-2 fade-up"><img src="images/gallery-retaining-wall-waterfront.jpg" alt="Retaining wall along waterfront" loading="lazy"><div class="gallery-caption">Waterfront Retaining Wall Build</div></div>
+        <div class="gallery-item fade-up"><img src="images/gallery-tree-crew.jpg" alt="Tree service crew at work" loading="lazy"><div class="gallery-caption">Tree Removal &amp; Cleanup</div></div>
+        <div class="gallery-item fade-up"><img src="images/gallery-masonry-steps.jpg" alt="Masonry steps and retaining walls" loading="lazy"><div class="gallery-caption">Custom Masonry Steps &amp; Walls</div></div>
+        <div class="gallery-item fade-up"><img src="images/gallery-rock-bed.jpg" alt="Decorative rock bed landscaping" loading="lazy"><div class="gallery-caption">Rock Bed &amp; Garden Design</div></div>
+        <div class="gallery-item fade-up"><img src="images/gallery-tree-climber.jpg" alt="Arborist climbing tree" loading="lazy"><div class="gallery-caption">Professional Tree Climbing</div></div>
+        <div class="gallery-item span-2 fade-up"><img src="images/gallery-deck-porch.jpg" alt="Custom deck and porch" loading="lazy"><div class="gallery-caption">Custom Deck &amp; Porch Build</div></div>
+        <div class="gallery-item fade-up"><img src="images/gallery-stone-planter.jpg" alt="Stone planter bed" loading="lazy"><div class="gallery-caption">Stone Planter &amp; Tree Ring</div></div>
+        <div class="gallery-item fade-up"><img src="images/gallery-fleet.jpg" alt="Pelican Landscaping truck fleet" loading="lazy"><div class="gallery-caption">Our Fleet Ready to Roll</div></div>
+      </div>
+      <div style="text-align:center;margin-top:40px" class="fade-up"><a href="https://www.facebook.com/PelicanLandscapingLLC/photos" target="_blank" class="btn btn-ghost">See More on Facebook &#8594;</a></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="reviews">
+    <div class="container">
+      <div class="section-header fade-up"><div class="section-tag">&#9733; Testimonials</div><h2>What Our Customers Say</h2><p>Don't just take our word for it. Here's what Belfair-area homeowners say about working with Pelican Landscaping.</p></div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card fade-up"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="review-text">"Miguel's crew were excellent and professional from start to finish. They took great care to avoid damage and the cleanup was thorough. Our yard looks incredible now."</p><div class="testimonial-author"><div class="testimonial-avatar">M</div><div><div class="testimonial-name">Verified Homeowner</div><div class="testimonial-role">Belfair, WA</div></div></div></div>
+        <div class="testimonial-card fade-up"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="review-text">"They built a beautiful retaining wall along our waterfront property and laid new gravel. Completely transformed the property. Fair price and top quality work."</p><div class="testimonial-author"><div class="testimonial-avatar">S</div><div><div class="testimonial-name">Satisfied Client</div><div class="testimonial-role">Port Orchard, WA</div></div></div></div>
+        <div class="testimonial-card fade-up"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="review-text">"We've used Pelican for regular lawn maintenance for over a year now. Always reliable, always thorough. Our yard has never looked better and the pricing is very reasonable."</p><div class="testimonial-author"><div class="testimonial-avatar">K</div><div><div class="testimonial-name">Loyal Customer</div><div class="testimonial-role">Bremerton, WA</div></div></div></div>
+      </div>
+      <div style="text-align:center;margin-top:40px" class="fade-up"><a href="https://www.google.com/maps?cid=17249576404499648041" target="_blank" class="btn btn-outline-white btn-sm">Read All 55+ Reviews on Google &#8594;</a></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container"><div class="contact-grid">
+      <div class="contact-info">
+        <div class="section-tag">&#9742; Contact Us</div>
+        <h2 style="margin-top:12px">Let's Talk About Your Project</h2>
+        <p>Whether you need a simple lawn mowing or a complete landscape overhaul, we're here to help.</p>
+        <div class="contact-card"><div class="contact-card-icon">&#9742;</div><div><h4>Phone</h4><p><a href="tel:3605515287">(360) 551-5287</a></p></div></div>
+        <div class="contact-card"><div class="contact-card-icon">&#128340;</div><div><h4>Business Hours</h4><p>Monday – Saturday: 8:00 AM – 8:00 PM<br>Sunday: Closed</p></div></div>
+        <div class="contact-card"><div class="contact-card-icon">&#128205;</div><div><h4>Location</h4><p><a href="https://maps.app.goo.gl/fz6EqnipmLj6ZDFi6" target="_blank">Belfair, WA 98528</a><br>Serving Kitsap &amp; Mason County</p></div></div>
+        <div class="contact-card"><div class="contact-card-icon">&#9733;</div><div><h4>Google Reviews</h4><p><strong style="color:var(--green-600)">4.6 Stars</strong> from 55+ verified reviews<br><a href="https://www.google.com/maps?cid=17249576404499648041" target="_blank">Read our reviews &#8594;</a></p></div></div>
+      </div>
+      <div class="contact-form-wrap">
+        <h3>Send Us a Message</h3><p class="subtext">We'll respond within 24 hours.</p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row"><input type="text" placeholder="First Name *" required><input type="text" placeholder="Last Name *" required></div>
+          <input type="email" placeholder="Email Address *" required>
+          <input type="tel" placeholder="Phone Number *" required>
+          <select required><option value="" disabled selected>Select a Service *</option><option>Landscape Design</option><option>Lawn Care</option><option>Fencing &amp; Decks</option><option>Masonry</option><option>Tree Service</option><option>Cleanups &amp; Hauling</option><option>Other</option></select>
+          <textarea placeholder="Tell us about your project..."></textarea>
+          <button type="submit" class="btn btn-primary">Send Message &#8594;</button>
+        </form>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container"><div class="cta-box fade-up">
+      <div><h2>Ready to Transform Your Property?</h2><p>Get a free, no-obligation estimate from Belfair's trusted landscaping team. We'll visit your property and provide an honest quote — usually within 48 hours.</p></div>
+      <div class="cta-buttons"><a href="tel:3605515287" class="btn btn-white">&#9742; Call Now</a><a href="#hero-form" class="btn btn-outline-white">Get Estimate</a></div>
+    </div></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container"><div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><img src="logo.svg" alt="Pelican Landscaping LLC"></div>
+        <p>Pelican Landscaping LLC is a locally owned landscaping company serving Belfair, WA and the greater Kitsap &amp; Mason County areas. Quality work, honest pricing, and dedication to beautiful outdoor spaces.</p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/PelicanLandscapingLLC" target="_blank" class="footer-social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="https://www.instagram.com/pelicanlandscapingllc/" target="_blank" class="footer-social-icon" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          <a href="https://www.google.com/maps?cid=17249576404499648041" target="_blank" class="footer-social-icon" aria-label="Google"><svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Services</h4><ul><li><a href="#services">Landscaping</a></li><li><a href="#services">Lawn Care</a></li><li><a href="#services">Fencing &amp; Decks</a></li><li><a href="#services">Masonry</a></li><li><a href="#services">Tree Service</a></li><li><a href="#services">Cleanups &amp; Hauling</a></li></ul></div>
+      <div><h4>Service Areas</h4><ul><li><a href="https://maps.app.goo.gl/fz6EqnipmLj6ZDFi6" target="_blank">Belfair, WA</a></li><li><a href="#">Bremerton, WA</a></li><li><a href="#">Silverdale, WA</a></li><li><a href="#">Port Orchard, WA</a></li><li><a href="#">Gig Harbor, WA</a></li><li><a href="#">Olympia, WA</a></li></ul></div>
+      <div><h4>Contact Us</h4>
+        <div class="footer-contact-item"><span class="fc-icon">&#9742;</span><span><a href="tel:3605515287">(360) 551-5287</a></span></div>
+        <div class="footer-contact-item"><span class="fc-icon">&#128205;</span><span><a href="https://maps.app.goo.gl/fz6EqnipmLj6ZDFi6" target="_blank">Belfair, WA 98528</a></span></div>
+        <div class="footer-contact-item"><span class="fc-icon">&#128340;</span><span>Mon–Sat: 8AM – 8PM</span></div>
+      </div>
+    </div></div>
+    <div class="footer-map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10856!2d-122.8273!3d47.4314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549047f25e666049%3A0xef4d5f4e2c4cca29!2sPelican%20Landscaping%20LLC!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Pelican Landscaping Location"></iframe></div>
+    <div class="footer-bottom"><span>&copy; 2026 Pelican Landscaping LLC. All rights reserved. &middot; Licensed, Bonded &amp; Insured &middot; Belfair, WA</span></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox"><button class="lightbox-close">&times;</button><img src="" alt="Gallery image" id="lightboxImg"></div>
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click',()=>document.getElementById('navLinks').classList.toggle('active'));
+    document.getElementById('navLinks').querySelectorAll('a').forEach(l=>l.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('active')));
+    window.addEventListener('scroll',()=>document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50));
+    const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target)}}),{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+    ['estimateForm','contactForm'].forEach(id=>{const f=document.getElementById(id);if(f)f.addEventListener('submit',function(e){e.preventDefault();const b=this.querySelector('button[type="submit"]');const o=b.innerHTML;b.innerHTML='&#9989; Sent!';b.style.background='#16a34a';setTimeout(()=>{b.innerHTML=o;b.style.background='';this.reset()},3500)})});
+    const lb=document.getElementById('lightbox'),lbi=document.getElementById('lightboxImg');
+    document.querySelectorAll('.gallery-item').forEach(i=>i.addEventListener('click',()=>{const s=i.querySelector('img');if(s){lbi.src=s.src;lb.classList.add('active')}}));
+    lb.addEventListener('click',()=>lb.classList.remove('active'));
+    document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})}));
+  </script>
+</body>
+</html>
